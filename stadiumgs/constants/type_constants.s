@@ -1,18 +1,18 @@
-NORMAL   EQU 0x00
-FIGHTING EQU 0x01
-FLYING   EQU 0x02
-POISON   EQU 0x03
-GROUND   EQU 0x04
-ROCK     EQU 0x05
-BUG      EQU 0x07
-GHOST    EQU 0x08
-STEEL    EQU 0x09
+.set NORMAL,  0x00
+.set FIGHTING,0x01
+.set FLYING,  0x02
+.set POISON,  0x03
+.set GROUND,  0x04
+.set ROCK,    0x05
+.set BUG,     0x07
+.set GHOST,   0x08
+.set STEEL,   0x09
 
-FIRE     EQU 0x14
-WATER    EQU 0x15
-GRASS    EQU 0x16
-ELECTRIC EQU 0x17
-PSYCHIC  EQU 0x18
-ICE      EQU 0x19
-DRAGON   EQU 0x1A
-DARK     EQU 0x1B
+.set FIRE,    0x14
+.set WATER,   0x15
+.set GRASS,   0x16
+.set ELECTRIC,0x17
+.set PSYCHIC, 0x18
+.set ICE,     0x19
+.set DRAGON,  0x1A
+.set DARK,    0x1B

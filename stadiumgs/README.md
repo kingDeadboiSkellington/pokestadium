@@ -54,5 +54,5 @@ There is a table at 0x04494c0 (contains .pers-szp containing yay0)
 
 There is a table at 0x1638000 (contains .pers-szp containing yay0)
 
-Need to look into using [armips](https://github.com/Kingcom/armips)
-for assembly.
+Assemble with as from binutils
+(configured with --target=mips64-elf --with-cpu=mips64vr4300)
